@@ -1,1 +1,66 @@
+.produit {
+    color: coral;
+    font-style: italic;
+}
 
+.reference{
+    color:black;
+    font-style: italic;
+}
+
+.general{
+    color: blue;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#id3 {
+    color:blue;
+    font-size: small;
+}
+
+#id1 h3{
+    color:red;
+    text-transform:uppercase;
+}
+
+p:first-letter{
+    color:green;
+    font-weight: bold;
+    font-family: fantasy;
+}
+
+body{
+    font-family: Arial;
+
+}
+table .produit .reference .general{
+    font-variant-caps:small-caps;
+}
+
+.reference {
+    background-color: lightgray;
+}
+
+blockquote p{
+    text-indent: 20px;
+}
+
+body h1 {
+    text-decoration: underline;
+}
+
+body h2{
+    text-decoration: underline;
+}
+body h3{
+    text-decoration: underline;
+}
+
+.reference .general .produit :first-letter{
+    text-transform: uppercase;
+}
+
+#id3{
+    background-color: #c0c0c0;
+}
